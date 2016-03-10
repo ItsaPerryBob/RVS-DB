@@ -1,4 +1,4 @@
-# RVS-DB-SearchEngine
+# RVS-DB
 A DB Search Engine, based of PHP
 
 Hello nice to see you
