@@ -38,6 +38,10 @@
     </ul>
 
 <span><center> Lagd av Per Arne Dahl Kristiansen, 2016 (c), 1SSA, RVS </center></span>
+<a href="http://www.000webhost.com/" target="_blank"><img src="http://www.000webhost.com/images/120x60_powered.gif" alt="Web Hosting" width="108" height="54" border="0" /></a>
+<a href="http://github.com/ItsaPerryBob/RVS-DB/" target="_blank"><img src="http://www.rvs-db.netau.net/images/github.png" alt="Web Hosting" width="108" height="54" border="0" /></a>
 </form>
 </body>
 </html>
+
+

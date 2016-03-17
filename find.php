@@ -36,7 +36,6 @@
         </h2></li>
         <li>
 	<table><tr>
-            <td><label for="name">Fornavn:</label></td>
             <td>
 		<input type="text"  placeholder="Karl" required  name="name"/>
 	    </td>

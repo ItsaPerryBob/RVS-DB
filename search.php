@@ -60,6 +60,7 @@ $find = mysql_query("SELECT * FROM data WHERE fname LIKE'%$key%'");
 				  echo "<th>Maskinnavn/merke</th>";
 				  echo "<th>Modell</th>";
 				   echo "<th>Utlevert</th>";
+				    echo"<th>tyveringsmerke</th>";
 				  echo "</tr>";
 			while($row = mysql_fetch_array($find)){
 				  echo "<tr class='t1'>";
@@ -70,6 +71,7 @@ $find = mysql_query("SELECT * FROM data WHERE fname LIKE'%$key%'");
 				  echo "<td>".$row['machinename']."</td>";
 				   echo "<td>".$row['model']."</td>";
 				  echo "<td>".$row['delivered']."</td>";
+				  echo"<td>".$row['tyveringsmerke']."</td>";
 			?>
 				  <td>
 					<a href="edit.php?id=<?php echo $row['id'];?>" class='action'>Endre</a> | 
