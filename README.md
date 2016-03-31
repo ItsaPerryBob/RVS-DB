@@ -1,5 +1,5 @@
 # RVS-DB
 A DB Search Engine, based of PHP
 
-Hello nice to see you
+Oppdatert: MOBIL VERSJON (Patch: 0.0.3)
 (Source: http://rvs-db.netau.net/index.php)
