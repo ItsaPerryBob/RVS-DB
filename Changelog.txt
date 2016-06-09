@@ -1,0 +1,77 @@
+Database Changelog of the Internet based verison of the database.
+
+#########################################
+By: Per Arne Dahl Kristiansen (Aka: Perry)
+Changelog made: 9th of June 2016.
+#########################################
+
+Every part of changelog is changed every verison of it. And it's all written from the project in Github & what I remember.
+
+############################################################################################
+
+Verison 0.1
+#########
+Commits made in February 18th of 2016 and March 10th-17th of 2016.
+The latest verison: 0.3.
+##########################
+18th of February: 
+#Created Readme file at Github and project,
+#Began constructing an Index.php, Updating Readme file sometimes.
+#Started constructing Lenovo.pdf instead of Lenovo.doc (problem sheet.). (Exporting doc to pdf.).
+#Created a sql file to upload to PHPmyAdmin. (Making the sql file was for upload student information to the base)
+#Began then constructing Home.php & this parts of .php parts of the database.
+##########################################################
+10th of March:
+#Started a branch: 0.2 (beta)
+#Updating all php sites. Added in .css for colour and size of fonts etc.
+#Updating sql file and removing stuff from database and reuploading after failing with the verison from back in February.
+#Fixing search & writing stuff in Norwegian.
+#######################################################
+17th of March:
+#Changing the branch 0.2
+#Reuploading php files & css files that had been changed.
+#Resized colour and other stuff in CSS.
+#############################################
+###########
+######
+##
+#
+
+Then back to:
+
+Verison 0.2 (beta release)
+################
+Commits made in March 10th-17th of 2016.
+The latest verison: 0.3.
+#########################
+10th of March:
+#Uploading all files that had been changed.
+#Uploading pictures that changed logo & advertisment like Risør VGS & 000Webhost. (Change that, if you want it with out.)
+##################################
+#########
+#####
+##
+#
+
+Then we've got Verison 0.3:
+
+Verison 0.3 (Release):
+######################
+Commits made in March 31th of 2016 & 10th of May.
+########################
+31th of March:
+#Bugfixing all translate problems like encoding of Norwegian. (ISO-8859-1 & UTF-8 ).
+#Bugfixing .sql files & database information at PHPmyAdmin.
+#Encoding & editing mobile verison out of this release & making a app for android.
+########################
+10th of May:
+#Bugfixing all php files & css.
+#Made an maintenance site, to work when needed. (change .htdocs to make it work.)
+#Bugfixing translate problems.
+#Lenovo.pdf (Problem sheet for Lenovo E31 when a student shall send it in to Lenovo & get a new one. ETC).
+####################
+##########
+#####
+##
+#
+
