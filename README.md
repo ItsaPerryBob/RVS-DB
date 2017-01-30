@@ -16,4 +16,10 @@ I was using 000webhost for this project for testing out everything on it. (Cause
 - Notepad ++
 - If I would say, I Suggest XAMPP or WAMP for usage as local webserver, But Instead I used simply 000webhost.com
 
+# Latest version:
+- Patch v.3 (Find it in branches)
 
+# License:
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+- If possible please also comment me as creator if possible :)
