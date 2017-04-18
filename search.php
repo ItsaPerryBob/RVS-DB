@@ -44,7 +44,7 @@ $find = mysql_query("SELECT * FROM data WHERE fname LIKE'%$key%'");
 		</tr>
 </table>
 <form class="contact_form" action="search.php" method="post" name="contact_form">
-    <ul>
+    <center>
         <li>
              <h2>Resultater:</h2>
              <span class="required_notification">Vi fant dette i databasen:</span>
@@ -60,6 +60,7 @@ $find = mysql_query("SELECT * FROM data WHERE fname LIKE'%$key%'");
 				  echo "<th>Maskinnavn/merke</th>";
 				  echo "<th>Modell</th>";
 				   echo "<th>Utlevert</th>";
+				    echo"<th>tyveringsmerke</th>";
 				  echo "</tr>";
 			while($row = mysql_fetch_array($find)){
 				  echo "<tr class='t1'>";
@@ -70,6 +71,7 @@ $find = mysql_query("SELECT * FROM data WHERE fname LIKE'%$key%'");
 				  echo "<td>".$row['machinename']."</td>";
 				   echo "<td>".$row['model']."</td>";
 				  echo "<td>".$row['delivered']."</td>";
+				  echo"<td>".$row['tyveringsmerke']."</td>";
 			?>
 				  <td>
 					<a href="edit.php?id=<?php echo $row['id'];?>" class='action'>Endre</a> | 
@@ -82,7 +84,7 @@ $find = mysql_query("SELECT * FROM data WHERE fname LIKE'%$key%'");
 			echo "</table>";
 		?>
 	</li>
-    </ul>
+    </center>
 <span><center> Lagd av Per Arne Dahl Kristiansen, 2016 (c), 1SSA, RVS </center></span>
 </form>
 </body>

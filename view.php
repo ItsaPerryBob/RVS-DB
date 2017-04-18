@@ -43,7 +43,6 @@ $find = mysql_query("select * from data");
 		</tr>
 </table>
 <form class="contact_form" action="search.php" method="post" name="contact_form">
-    <ul>
         <li>
              <h2>Resultatene</h2>
              <span class="required_notification">Dette er resultatene vi finner i databasen:</span>
@@ -59,8 +58,13 @@ $find = mysql_query("select * from data");
 				  echo "<th>Maskinnavn/merke</th>";
 				  echo "<th>Modell</th>";
 				   echo "<th>Utlevert</th>";
+				   echo "<th>Dato (Tatt til reperasjon)</th>";
 				   echo "<th>Levert tilbake</th>";
-				  echo "<th>Endringer</th>";
+				   echo"<th>tyveringsmerke</th>";
+				   echo"<th>skade eller problem</th>";
+				   echo "<th>Ansvarlig</th>";
+				   echo"<th>Status</th>";
+				   echo "<th>Endringer</th>";
 				  echo "</tr>";
 			while($row = mysql_fetch_array($find)){
 				  echo "<tr class='t1'>";
@@ -70,12 +74,18 @@ $find = mysql_query("select * from data");
 				  echo "<td>".$row['serialnumber']."</td>";
 				  echo "<td>".$row['machinename']."</td>";
 				   echo "<td>".$row['model']."</td>";
-				  echo"<td>".$row['delivered']."</td>";
-				  echo"<td>".$row['deliveredback']."</td>";;
+				   echo "<td>".$row['dato']."</td>";
+				  echo "<td>".$row['delivered']."</td>";
+				  echo "<td>".$row['deliveredback']."</td>";
+				  echo "<td>".$row['tyveringsmerke']."</td>";
+				  echo "<td>".$row['skadeellerproblem']."</td>";
+				  echo "<td>".$row['ansvarlig']."</td>";
+				  echo "<td>".$row['status']."</td>";
 			?>
 				  <td>
 					<a href="edit.php?id=<?php echo $row['id'];?>" class='action'>Endre</a> | 
-					<a href="delete.php?id=<?php echo $row['id'];?>" class='action' onclick="return confirm('Er du sikker at du vil slette?')">Slett</a>
+					<a href="delete.php?id=<?php echo $row['id'];?>" class='action' onclick="return confirm('Er du sikker at du vil slette?')">Slett</a>|
+					<a href="pdf.php?id=<?php echo $row['id'];?>" class='action'>send til reperasjon (pdf)</a> 
 				  </td>
 			<?php
 				  echo "</tr>";
@@ -84,8 +94,8 @@ $find = mysql_query("select * from data");
 			echo "</table>";
 		?>
 	</li>
-    </ul>
 <span><center> Lagd av Per Arne Dahl Kristiansen, 2016 (c), 1SSA, RVS </center></span>
+<a href="http://www.000webhost.com/" target="_blank"><img src="http://www.000webhost.com/images/80x15_powered.gif" alt="Web Hosting" width="80" height="15" border="0" /></a>
 </form>
 </body>
 </html>

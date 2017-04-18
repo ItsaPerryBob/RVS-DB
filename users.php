@@ -46,7 +46,6 @@ $find = mysql_query("select * from users");
 		</tr>
 </table>
 <form class="contact_form" action="search.php" method="post" name="contact_form">
-    <ul>
         <li>
              <h2>Søkeresultater:</h2>
              <span class="required_notification">Følgende søk matcher vår database:</span>
@@ -72,7 +71,6 @@ $find = mysql_query("select * from users");
 			echo "</table>";
 		?>
 	</li>
-    </ul>
 
 </form>
 </body>

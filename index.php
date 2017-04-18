@@ -7,37 +7,38 @@
 ?>
 
 <!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-	<title>Elevpc system v.0.1</title>
-<img src="/images/pclogo.png" alt="Laptop" height="120" width="120">
-		<h1>Elevpc System v.0.1</h1>
-			<link rel="stylesheet" media="screen" href="login.css" >
-</head>
-<body>
-<form class="contact_form" action="verify.php" method="post" name="contact_form">
-    <ul>
-        <li>
-             <h2>Vennligst logg inn</h2>
-             <span class="required_notification">* Viktige felter</span>
-        </li>
-        <li>
-            <label for="name">Brukernavn:</label>
-            <input type="text"  placeholder="Joe" required  name="name"/>
-	    <span class="form_hint">Proper format "Joe"</span>
-        </li>
-	 <li>
-            <label for="name">Passord:</label>
-            <input type="password"  placeholder="Dinagat" required name="pass"/>
-	    <span class="form_hint">Proper format "xxxxxxx"</span>
-        </li>
-        <li>
-        	<button class="submit" type="submit">Login</button>
-        </li>
-    </ul>
 
-<span><center> Lagd av Per Arne Dahl Kristiansen, 2016 (c), 1SSA, RVS </center></span>
-</form>
-</body>
-</html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.css"/>
+<link rel="stylesheet" href="style1.css"/>
+<div class="login">
+		<h4>Elevpc System</h4>
+</div>
+ 
+<div class="box">
+<div class="login">
+<h4 class="label2">Vennligst logg inn:</h4>
+</div>
+<div class="login" action="verify.php" method="post" name="contact_form">
+             
+             <label>Brukernavn:</label>
+            <input type="text" class="login"   required  name="name"/>
+            <label>Passord:</label>
+            <input type="password" class="login" required name="pass"/> 
+            <button class="btn-large" type="submit">Logg inn</button>
+			
+			<input type="checkbox" checked="checked"/>
+            </div>
+
+			<div class="login">
+<p class="center">
+ Lagd av Per Arne Dahl Kristiansen, 2016-2018 (c)
+</p>
+<p class="center"> Version: 2.0 </p>
+</div>
+</div>
+
+
+
+
+
+
