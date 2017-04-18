@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta charset="utf-8" />
 	<title>Elevpc system v.0.1</title>
 	<link rel="stylesheet" media="screen" href="stylesS.css" >
 </head>
@@ -29,14 +29,13 @@
 		</tr>
 </table>
 <form class="contact_form" action="search.php" method="post" name="contact_form">
-    <ul>
-        <li>
+      <center>
+	  <li>
              <h2>Finn data her og skriv det under her:
              <span class="required_notification">* Husk: Skriv navn riktig</span>
         </h2></li>
-        <li>
+        
 	<table><tr>
-            <td><label for="name">Fornavn:</label></td>
             <td>
 		<input type="text"  placeholder="Karl" required  name="name"/>
 	    </td>
@@ -44,8 +43,9 @@
 		<button class="submit" type="submit">Finn data</button>
 	    </td>
 	</tr></table>
-	</li>
-    </ul>
+	
+	</center>
+
 <span><center> Lagd av Per Arne Dahl Kristiansen, 2016 (c), 1SSA, RVS </center></span>
 </form>
 </body>

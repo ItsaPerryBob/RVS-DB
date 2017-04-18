@@ -33,8 +33,7 @@ session_start();
 		</tr>
 </table>
 <form class="contact_form" action="adduser.php" method="post" name="contact_form">
-    <ul>
-        <li>
+        <center><li>
              <h2>Skriv inn brukerdata:</h2>
              <span class="required_notification">* Viktige stjerner *, skriv i feltene for registrering</span>
         </li>
@@ -48,10 +47,8 @@ session_start();
             <input type="password"  placeholder="Hawk" required name="pass"/>
 	    <span class="form_hint">Riktig skriveformat eks: "Hawk002"</span>
         </li>
-        <li>
-        	<button class="submit" type="submit">Registrer</button>
-        </li>
-    </ul>
+		</center>
+        	<center><button class="submit" type="submit">Registrer</button></center>
 <span><center> Lagd av Per Arne Dahl Kristiansen, 2016 (c), 1SSA, RVS </center></span>	
 </form>
 </body>
